@@ -47,6 +47,8 @@
     <Compile Include="ByteArray.cs" />
     <Compile Include="FileData.cs" />
     <Compile Include="FileIndexEntry.cs" />
+    <Compile Include="FileSystemRepository.cs" />
+    <Compile Include="IFileSystemRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

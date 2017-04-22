@@ -13,13 +13,13 @@ namespace Aom.Tools.WinBar
             Offset = offset;
         }
 
-        public override string ToString() => $"{FileData.Name} ({Offset},{FileData.Length})";
+        public override string ToString() => $"{FileData.LocalFilePath} ({Offset},{FileData.Length})";
 
         public int CompareTo(FileIndexEntry other)
         {
             if (ReferenceEquals(this, other)) return 0;
             if (ReferenceEquals(null, other)) return 1;
-            return string.Compare(FileData.Name, other.FileData.Name, StringComparison.Ordinal);
+            return string.Compare(FileData.LocalFilePath, other.FileData.LocalFilePath, StringComparison.Ordinal);
         }
     }
 }
