@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BarFile.cs" />
+    <Compile Include="BarFileGenerator.cs" />
+    <Compile Include="BarFileReader.cs" />
+    <Compile Include="BarHeader.cs" />
+    <Compile Include="ByteArray.cs" />
+    <Compile Include="FileData.cs" />
+    <Compile Include="FileIndexEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

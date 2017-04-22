@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aom.Tools.WinBar.Ui", "Aom.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aom.Tools.WinBar.Tests", "Aom.Tools.WinBar.Tests\Aom.Tools.WinBar.Tests.csproj", "{5C3EC8B7-F078-4D95-A27B-0F99CAE37ABD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aom.Tools.WinBar.Assets", "Aom.Tools.WinBar.Assets", "{0879C9D0-7B96-4C97-880E-88DDE9EC05F6}"
+	ProjectSection(SolutionItems) = preProject
+		Aom.Tools.WinBar.Assets\data.bar = Aom.Tools.WinBar.Assets\data.bar
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
